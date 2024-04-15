@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-color:  #212529;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+    --win-color: #25a340;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+main{
+    display: block;
+    margin: 0 auto;
+    max-width: 35rem;
+    position: relative;
+}
+
+header{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+input{
+    background-color: var(--bg-color);
+    border: 2px solid var(--border-color);
+    border-radius: .5rem;
+    color: var(--font-color);
+    margin-bottom: 1rem;
+    padding: .3rem;
+    display: block;
+}
+
+#round{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+#restart button, #themeSwitcher, #start {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: .5rem .5rem;
+    transition: .15s;
+}
+
+#start{
+    position: relative;
+    font-size: 1.25rem;
+    padding: .5rem 2rem;
+    left: 80%;
+}
+
+#table button{
+    background-color: var(--font-color);
+    box-sizing: content-box;
+    font-size: 4rem;
+    color: var(--bg-color);
+    max-height: 4rem;
+    border: none;
+    border-right: 3px solid var(--bg-color);
+    border-bottom: 3px solid var(--bg-color);
+    padding: 4rem 3rem;
+    cursor: pointer;
+    place-content: center;
+}
+
+#table button:hover{
+    filter: brightness(0.6);
+}
+
+#table button.win{
+    background-color: var(--win-color);
+}
+
+#themeSwitcher:hover, #restart button:hover, #start:hover{
+    background-color: var(--font-color);
+    color: var(--bg-color);
+}
+
+#restart button{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin: 1.5rem auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}

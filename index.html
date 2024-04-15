@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main data-theme="dark">
+        <header class="flex align-center justify-between">
+            <h1>Tic-Tac-Toe</h1>
+            <button id="themeSwitcher">Switch Theme Light/Dark</button>
+        </header>
+        <section id="players">
+            <label for="jogador1">Jogador 1: </label>
+            <input type="text" name="jogador" id="jogador1" placeholder="Nome do Jogador 1">
+            <label for="jogador1">Jogador 2: </label>
+            <input type="text" name="jogador" id="jogador2" placeholder="Nome do Jogador 2">
+        </section>
+        <section>
+            <button id="start">Start</button>
+        </section>
+        <section id="round">
+            <p id="turn">Vez de: </p>
+            <p id="player"> ______</p>
+        </section>
+        <section id="table">
+            <button data-position="0.0"  class="item" disabled></button>
+            <button data-position="0.1"  class="item" disabled></button>
+            <button data-position="0.2"  class="item" disabled></button>
+            <button data-position="1.0"  class="item" disabled></button>
+            <button data-position="1.1"  class="item" disabled></button>
+            <button data-position="1.2"  class="item" disabled></button>
+            <button data-position="2.0"  class="item" disabled></button>
+            <button data-position="2.1"  class="item" disabled></button>
+            <button data-position="2.2"  class="item" disabled></button>
+        </section>
+        <section id="restart">
+            <button class="restart">Restart</button>
+        </section>
+    </main>
+</body>
+</html>
