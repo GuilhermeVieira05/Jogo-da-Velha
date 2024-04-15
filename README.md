@@ -8,7 +8,8 @@ O Jogo da Velha foi uma aplicação front-end criada utilizando JavaScript.
 
 Consiste no famoso Jogo da Velha, onde é possível jogar com seu amigo, com as funcionalidades do jogo.
 
-![image](https://github.com/V131R4/Calculadora/assets/104731949/1098a030-1f12-4c70-8648-604984a07b43)
+![image](https://github.com/V131R4/jogoDaVelha/assets/104731949/3c2b8493-8d27-4248-8aa5-03bfd182ef7d)
+
 
 # Tecnologias Utilizadas:
 ## Front-End
